@@ -2,7 +2,7 @@
 sudo chroot ./openEuler_rootfs
 yum install python3-devel
 yum install gcc
-gcc -shared -o mymodule.so -fPIC -I/usr/include/python3.8 mymodule.c
+gcc -shared -o mymodule.so -fPIC -I/usr/include/python3.11 mymodule.c
 
 2. Copy the mymodule.so to site-pacakges
 /usr/lib64/python3.11/site-packages/
